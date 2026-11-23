@@ -11,19 +11,27 @@
 START hilow_game
 
     # Establish a valid guessing range.
-    TODO: Obtain the lower and upper bounds.
-    TODO: Repeat as needed until the bounds satisfy the requirement.
+    TODO: SET max with user input
+          SET min with user input
+    
 
     # Establish the number the player is trying to guess.
-    TODO: Generate the required random number from the valid range.
+    TODO: ASSIGN winning condition variable with random integer 
 
     # Play the game.
-    TODO: Obtain and validate a guess using the selected bounds.
-    TODO: Repeat the required game behavior until the correct guess.
-        TODO: Compare a valid guess and provide the required feedback.
-        TODO: Obtain and validate another guess when play continues.
+    TODO: GET user's guess as input
+    TODO: WHILE min <= ran_int <= max
+        TODO: IF guess is correct
+                    DISPLAY Celebration
+        TODO: IF guess is NOT correct and the guess is LOWER than the winning value
+                    DISPLAY Lower, guess again
+                    GET next guess
+              IF guess is NOT correct and the guess is HIGHER than the winning value
+                    DISPLAY Higher, next guess
+                    GET next guess
+                    
 
 END hilow_game
 
 # === References ===
-# TODO: Add references for sources you used, or delete this line if unused.
+
